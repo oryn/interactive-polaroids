@@ -23,3 +23,23 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:first-child {
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  transform: rotate(-12deg);
+  z-index: 1;
+}
+
+.polaroid:first-child:hover {
+  z-index: 1000;
+  transform: rotate(0deg);
+}
+
+.polaroid:nth-child(2) {
+  left: 30%;
+  top: 150px;
+  z-index: 3;
+  transform: rotate(0deg);
+}
