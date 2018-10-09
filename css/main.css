@@ -43,3 +43,21 @@ html {
   z-index: 3;
   transform: rotate(0deg);
 }
+
+.polaroid:nth-child(2):hover {
+  z-index: 1000;
+  transform: rotate(4deg);
+}
+
+.polaroid:last-child {
+  position: absolute;
+  left: 40%;
+  top: 100px;
+  z-index: 2;
+  transform: rotate(35deg);
+}
+
+.polaroid:last-child:hover {
+  z-index: 1000;
+  transform: rotate(0deg);
+}
